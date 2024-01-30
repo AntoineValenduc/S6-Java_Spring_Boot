@@ -7,8 +7,10 @@ import org.springframework.stereotype.Component;
 @Component
 @Getter
 @Setter
+/**
+ * DTO utilisé dans la requête POST 'convertTemperature' pour revecoir un objet contenant les propriétés unit (type de température), value (valeur de la température)
+ */
 public class TemperatureRequest {
-    //En fait c'est un autre DTO
 
     private String unit;
     private double value;

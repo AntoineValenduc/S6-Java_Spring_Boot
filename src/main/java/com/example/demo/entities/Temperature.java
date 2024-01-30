@@ -14,10 +14,10 @@ public class Temperature {
 
     @Column(name = "celsius")
     private double celsius;
+    @Column(name = "fahrenheit")
 
-    @Column(name = "fahrenheit ")
     private double fahrenheit;
 
-    @Column(name = "kelvin ")
+    @Column(name = "kelvin")
     private double kelvin;
 }
